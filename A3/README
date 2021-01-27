@@ -1,0 +1,22 @@
+I did not complete question 2b.
+
+Instruction:
+
+ccadd - argument (ccadd id maker model year cpu desc), ccadd allows users to create new content.
+
+ccitem - argument (ccitem id), find the item by its id. It prints an error message if id doesn't exist.
+
+cclist - argument (cclist), prints everythin in the db.
+
+ccdel - argument (ccdel id), find the id, and delete it from db. It prints an error message if id doesn't exist.
+
+ccmatch - argument (ccmatch string). It takes an input string and matches it with the maker, model, and desc. 
+It is case sensitive and matches the same string with the input string. 
+For example: if desc has "Intel i3-1333 2-Core Processor", the input must be the same to find it in desc attribute.
+
+ccyear - argument (ccyear year1 year2). ccyear takes 2 years input command line arguments. 
+years1 cannot greater than year2 and year2 cannot less than year1. It prints valid year between year1 and year2.
+
+ccedit - argument (ccedit id). ccedit takes id as input command line arguments and retrieves the specified item. 
+It prompts a yes and no question if user want to change the data. It displays the number menu. The user has the option to choose which attribute to modify. 
+If user input no, the program will exist.

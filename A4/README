@@ -1,0 +1,10 @@
+This menu able to preform option 2, 3, 4, 7, and 8.
+
+Option 1 prompt for maker, model, year, cpu, id, and desc. But it cannot add item.
+
+Option 5 prompt for string input. The function execlp() takes the string input but didn't go to the ccmatch. Then, It returns to the menu page.
+
+Option 6 propmpt for two years input. The function execlp() takes two inputs but didn't get anything back. It only returns to the menu page.
+
+
+*Notice: If the menu pops up when press 8. quit, it is because there's another cemenu running. Please continue press 8. quit until it exit the program.
